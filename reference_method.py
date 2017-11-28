@@ -1,6 +1,6 @@
 class greet:
     def name(self):
-        print("I am Zsuzsi")
+        print("Greetings")
 
 sample = greet()
 sample.name() 
