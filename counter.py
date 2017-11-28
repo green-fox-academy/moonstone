@@ -5,6 +5,7 @@ class count:
     self.current_year = 2017
     self.birth_year = birth_year
     self.month = 8
+    self.number = number
     self.age = self.current_year - self.birth_year
     print(self.age)
     print("I borned in the: " + str(self.month)+ "th month in " + str(self.birth_year))
