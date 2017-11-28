@@ -4,3 +4,6 @@ class greet:
 
 sample = greet()
 sample.name("Zsuzsi", "25") 
+
+
+
