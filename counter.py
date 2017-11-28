@@ -4,8 +4,9 @@ class count:
     self.name = name
     self.current_year = 2017
     self.birth_year = 1986
+    self.month = 8
     self.age = self.current_year - self.birth_year
-    print("My age is: " + str(self.age))
+    print("I borned in the: " + str(self.month)+ "th month")
     print(self.name)
     if self.age > 50:
       print("I am too old for festivals")
