@@ -3,6 +3,7 @@ class cheer:
         self.member_count = member_count
         print(self.member_count)
         print("Moonstone")
+        print("hello")
 
 teamname = cheer()
 teamname.cheer_method(5)
