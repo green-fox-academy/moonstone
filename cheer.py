@@ -12,3 +12,5 @@ class cheer:
 teamname = cheer()
 teamname.cheer_method(5, "R2D2")
 teamname.future("happy")
+
+
