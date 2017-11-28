@@ -8,6 +8,9 @@ class count:
     self.age = self.current_year - self.birth_year
     print(self.age)
     print("I borned in the: " + str(self.month)+ "th month in " + str(self.birth_year))
+    print("Counting the countless: " + str(self.number))
+    print("I borned in the: " + str(self.month)+ "th month") 
+
     if self.age > 50:
       print("I am too old for festivals")
         
