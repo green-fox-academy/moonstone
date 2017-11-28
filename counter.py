@@ -1,6 +1,6 @@
 class count:
 
-  def ages(self, name, birth_year):
+  def ages(self, name, number, birth_year):
     self.name = name
     self.current_year = 2017
     self.birth_year = birth_year
@@ -15,7 +15,7 @@ class count:
       print("I am too old for festivals")
         
 count_age = count()
-count_age.ages("Tamara", 1986)
+count_age.ages("Tamara", 12, 1986)
 
 
 
