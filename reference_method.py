@@ -11,7 +11,8 @@ class count:
         self.birth_year = 1986
         self.age = self.current_year - self.birth_year
         print("My age is: " + str(self.age))
-
+        if self.age > 50:
+            print("I am too old for festivals")
 count_age = count()
 count_age.ages()
 
@@ -20,4 +21,4 @@ class cheer:
         print("Moonstone")
 
 teamname = cheer()
-teamname.cheer_method()
+teamname.cheer_method():
